@@ -7,7 +7,7 @@ function toggleMenu()
 function show_modal()
 {
 	[].forEach.call(document.getElementsByClassName('modal'), function (el) {
-		el.classList.remove('hidden');
+		el.classList.toggle('hidden');
 	});		
 }
 function google_async(UA)

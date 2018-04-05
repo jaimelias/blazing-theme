@@ -4,9 +4,9 @@ language: es
 
 # main menu navigation
 menu:
-  Blog: /blog/
   Tiendas Virtuales: /tiendas/
   Incubadora: /incubadora/
+  Blog: /blog/
 
 #url, title, class, onclick
 menu_button:
