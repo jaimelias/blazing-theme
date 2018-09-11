@@ -3,12 +3,10 @@ function toggleMenu()
 	var menu = document.querySelector('#menuToggled');
 	menu.classList.toggle('toggled');
 }
-
-function show_modal()
+function show_modal(the_id)
 {
-	[].forEach.call(document.getElementsByClassName('modal'), function (el) {
-		el.classList.toggle('hidden');
-	});		
+	document.getElementById(the_id).classList.toggle('hidden');
+	return false;
 }
 function google_async(UA)
 {

@@ -18,9 +18,9 @@ menu_button:
 # Miscelaneous
 logo:
   enabled: true
-  width: 150
-  height: 60
-  url: images/logo.svg
+  width: 220
+  height: 80
+  url: images/logo.svg?ver=3
 front_page:
   enabled: true
   url_lg: images/front-page-lg.jpg
@@ -80,9 +80,13 @@ hero:
       description: "Estrategias probadas para vender en línea fácilmente"
       button:
         text: "Aprende E-commerce"
+        url:
+        onclick: show_modal("subscribe")
     newsletter:
       enable: true
       title: "Estrategias E-commerce en tu email"
       description: "Aprende las mejores estrategias para posicionarse y vender en línea"
       button:
         text: "Suscríbete"
+        url:
+        onclick: show_modal("subscribe")

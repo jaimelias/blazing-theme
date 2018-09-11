@@ -6,19 +6,24 @@
 {
 	color: #666;
 }
-#header-bar, #footer
+#header-bar
+{
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+#footer
 {
 	color: #f2f2f2;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
 	background-color: #262626;
 }
 #header-menu > li > a:not(.pure-button), #header-menu > li > a:visited:not(.pure-button)
 {
-	color: #f2f2f2;
+	color: #444;
 }
 #header-menu > li > a:hover:not(.pure-button)
 {
-	color: #f7f7f7;
+	color: #262626;
 }
 .pure-button-primary, .pure-button-primary:active, .pure-button.pure-button-primary, .pure-button.pure-button-primary:active, .pure-button-black, .pure-button-black:active, .pure-button.pure-button-black, .pure-button.pure-button-black:active, .hero-follow
 {
@@ -36,9 +41,13 @@
 .pure-button-black:after {
     background-color: #262626;
 }
-.hero, .modal-body
+.hero
 {
 	background-color: #FFCC33;
+}
+.modal-body
+{
+	background-color: #fff;
 }
 .post, .hit, #comments
 {
