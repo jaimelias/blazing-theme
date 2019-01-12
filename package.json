@@ -17,5 +17,8 @@
     "hexo-fs": "^0.2.2",
     "clean-css": "^4.1.9",
     "object-assign": "^4.1.1"
+  },
+  "dependencies": {
+    "npm": "^6.4.1"
   }
 }

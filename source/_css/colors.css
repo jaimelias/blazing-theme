@@ -14,8 +14,8 @@
 }
 #footer
 {
-	color: #f2f2f2;
-	background-color: #262626;
+	color: #444;
+	background-color: #fff;
 }
 #header-menu > li > a:not(.pure-button), #header-menu > li > a:visited:not(.pure-button)
 {
@@ -30,15 +30,15 @@
 	color: #fff;
 }
 .pure-button-primary:before {
-    background: linear-gradient(45deg, #FFCC33, #FF6037);
+    background-color: #000;
 }
-.pure-button-primary:after, .hero-follow {
-    background-color: #FF6037;
+.pure-button-primary:after{
+    background-color: #262626;
 }
 .pure-button-black:before {
     background: #000;
 }
-.pure-button-black:after {
+.pure-button-black:after, .hero-follow {
     background-color: #262626;
 }
 .hero
@@ -63,16 +63,16 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, .close
 }
 #footer a, #footer a:hover, #footer a:visited 
 {
-	color: #fff;
+	color: #262626;
 }
 @media (min-width:48.5em)
 {
 	#front-page-bg h1
 	{
-		text-shadow: 2px 2px 6px rgba(255, 204, 51, 0.6);
+		text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.6);
 	}	
 	#front-page-bg > .hero-content
 	{
-		background-color: rgba(255, 204, 51, 0.3);
+		background-color: rgba(255, 255, 255, 0.2);
 	}	
 }

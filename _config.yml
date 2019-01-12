@@ -4,9 +4,9 @@ language: es
 
 # main menu navigation
 menu:
-  Tiendas Virtuales: /tiendas/
-  Incubadora: /incubadora/
   Blog: /blog/
+  Sobre mi: /sobre-mi/
+  
 
 #url, title, class, onclick
 menu_button:
@@ -73,10 +73,10 @@ social:
 hero:
     home:
       enable: true
-      title: "E-commerce y Desarrollado Web en Panamá"
+      title: "Soluciones E-commerce para tour operadores"
     blog:
       enable: true
-      title: "Blog de e-commerce para emprendedores en Panamá"
+      title: "Blog de e-commerce para emprendedores"
       description: "Estrategias probadas para vender en línea fácilmente"
       button:
         text: "Aprende E-commerce"
@@ -90,3 +90,12 @@ hero:
         text: "Suscríbete"
         url:
         onclick: show_modal("subscribe")
+
+banners:
+    helicopter:
+      location: right
+      name: Tour en helicóptero en Panamá
+      url: https://aeroalbrook.com/es/tours-helicoptero-panama/?referrer=jaimelias
+      img: /images/banner-1.gif
+      width: 400
+      height: 440

@@ -1,11 +1,11 @@
-<div class="hero text-center" <% if(hero == "home" && theme.front_page.enabled == true) {%>id="front-page-bg"<% } %>>
+<div class="hero text-center <% if(hero != "newsletter") {%>bottom-40<% }%>" <% if(hero == "home" && theme.front_page.enabled == true) {%>id="front-page-bg"<% } %>>
 	<div class="hero-content block">
 		<div class="container">
 			<% if(theme.hero[hero].title) {%>
 				<% if(hero == "newsletter") {%>
-					<h2 class="<%= hero%>"><%= theme.hero[hero].title%></h2>
+					<h2 class="<%= hero%> uppercase"><%= theme.hero[hero].title%></h2>
 				<% } else {%>
-					<h1 class="<%= hero%>"><%= theme.hero[hero].title%></h1>
+					<h1 class="<%= hero%> uppercase"><%= theme.hero[hero].title%></h1>
 			<%}}%>
 			<% if(theme.hero[hero].description) {%>
 				<h3 class="light"><%= theme.hero[hero].description%></h3>
@@ -14,9 +14,5 @@
 				<a class="pure-button pure-button-black button-xl" <%if(theme.hero[hero].button.url){%>href="<%= theme.hero[hero].button.url%>"<%}%><%if(theme.hero[hero].button.onclick){%>onclick="<%= theme.hero[hero].button.onclick%>" <%}%>><%= theme.hero[hero].button.text%></a>
 			<%}%>
 		</div>
-	</div>
-	
-	<div class="hero-follow">
-		<div class="container-fluid uppercase sharethis-inline-follow-buttons"></div>
 	</div>
 </div>

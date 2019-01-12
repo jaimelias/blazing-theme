@@ -1,0 +1,11 @@
+<% if(theme.hasOwnProperty("banners")){ %>
+	<div class="banners text-center">
+		<% Object.keys(theme.banners).forEach(function(key) { %>
+			<% if(theme.banners[key].location == location){%>
+				<div class="bottom-40">
+					<a target="_blank" href="<%=theme.banners[key].url %>"><img src="<%=theme.banners[key].img%>" alt="<%=theme.banners[key].name%>" width="<%=theme.banners[key].width%>" height="<%=theme.banners[key].height%>" class="img-responsive" /></a>
+				</div>
+			<% } %>
+		<% }); %>
+	</div>
+<% } %>
