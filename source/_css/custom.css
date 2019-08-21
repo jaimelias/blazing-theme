@@ -228,7 +228,7 @@ h5,h6{
 .post,.page{
     box-sizing:border-box
 }
-#content p{
+#content p, #content ul, #content ol{
     line-height:1.8
 }
 #menuToggled.toggled{
@@ -321,6 +321,13 @@ h5,h6{
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+#content ul li:not(:last-child), #content ol li:not(:last-child){
+	margin: 0 0 10px 0;
+}
+#content ul, #content ol
+{
+	margin: 0 0 20px 0;
 }
 .sharethis-inline-share-buttons
 {

@@ -5,8 +5,7 @@ language: es
 # main menu navigation
 menu:
   Blog: /blog/
-  Sobre mi: /sobre-mi/
-  
+  Sobre mi: /sobre-mi/  
 
 #url, title, class, onclick
 menu_button:
@@ -43,7 +42,7 @@ scripts:
   google_analytics:
     url: https://www.google-analytics.com/analytics.js
     async: async
-    callback: google_async("UA-101494881-1")
+    callback: google_async("UA-145176464-2")
   sharethis:
     url: //platform-api.sharethis.com/js/sharethis.js#property=5ab12a30b338830013654fef&product=inline-share-buttons
     async: async
@@ -73,10 +72,10 @@ social:
 hero:
     home:
       enable: true
-      title: "Soluciones E-commerce para tour operadores"
+      title: "Asesoría E-commerce y Desarrollo Web"
     blog:
       enable: true
-      title: "Blog de e-commerce para emprendedores"
+      title: "E-commerce para emprendedores en Panamá"
       description: "Estrategias probadas para vender en línea fácilmente"
       button:
         text: "Aprende E-commerce"
